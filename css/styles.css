@@ -334,11 +334,13 @@ button[type='button'] {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px 24px;
+  padding: 20px 24px 4px 24px;
+  margin-block: 0px;
 }
 .portfolio-filter-division-list-element p {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  margin: 0px 24px 20px 24px;
+  padding: 0px 24px 20px 24px;
+  margin-block: 0px;
 }
