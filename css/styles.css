@@ -141,7 +141,7 @@ button[type='button'] {
   padding-top: 94px;
 }
 .content-hidden-element {
-  visibility: hidden;
+  display: none;
   margin: 0px;
   /* padding-left: 0px; */
 }
