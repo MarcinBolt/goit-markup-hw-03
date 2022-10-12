@@ -37,9 +37,9 @@ button[type='button'] {
   cursor: pointer;
 }
 .main-menu a:hover,
-.footer-container a:hover,
+.footer-division a:hover,
 .main-menu a:focus,
-.footer-container a:focus {
+.footer-division a:focus {
   color: var(--logo-color-blue);
 }
 .current-link:visited {
