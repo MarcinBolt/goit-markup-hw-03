@@ -127,7 +127,7 @@ button[type='button'] {
   color: var(--brand-color-white);
   padding-bottom: 30px;
   margin: 0 auto;
-  width: 696px;
+  max-width: 696px;
 }
 .section-top-division {
   text-align: center;
@@ -319,17 +319,13 @@ button[type='button'] {
   list-style-type: none;
   display: flex;
   gap: 30px;
-  padding-left: 0px;
+  padding: 0px;
   margin-block: 0px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .portfolio-filter-division-list-element {
-  width: 31.6%;
-}
-.filtered-element {
-  width: 370px;
-  height: 404px;
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .no-gap {
   display: block;
